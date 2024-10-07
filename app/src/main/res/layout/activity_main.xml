@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler view examples"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_simple_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple Recyclerview" />
+
+        <Button
+            android:id="@+id/btn_simple_recycler_view_fragments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple Recyclerview in a fragment" />
+
+        <Button
+            android:id="@+id/btn_two_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler view with Two Views" />
+
+        <Button
+            android:id="@+id/btn_rv_with_simple_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler view with simple search" />
+
+        <Button
+            android:id="@+id/btn_infinite_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler view with infinite scroll" />
+
+        <Button
+            android:id="@+id/btn_rv_vm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler view with view model" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
